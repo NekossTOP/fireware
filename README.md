@@ -18,8 +18,9 @@
 - [Surge(仅限MacOS系统)](https://www.nssurge.com/)
 
 ## Clash软件（支持除Vless以外所有协议）
-### 原版Clash
-- [Clash原版GO软件](https://github.com/Dreamacro/clash)
+### Clash核心
+- [Clash原版](https://github.com/Dreamacro/clash)
+- [Clash.Meta](https://github.com/MetaCubeX/Clash.Meta/releases)
 ### Windows![img](https://www.v2ray.com/resources/win.svg)
 - [Clash for Windows（软件较大，功能齐全）](https://github.com/Fndroid/clash_for_windows_pkg/releases/latest)
 - [Clash.Mini（使用Go语言编写的简洁版UI，集成了魔改内核）](https://github.com/Clash-Mini/Clash.Mini/releases/latest)
@@ -29,7 +30,7 @@
 - [ClashX（仅限Mac使用）](https://github.com/yichengchen/clashX)
 ### Android（安卓）![img](https://www.v2ray.com/resources/android.svg)
 - [Clash for Android](https://github.com/Kr328/ClashForAndroid/releases/latest)
-- [ClashA](https://github.com/ccg2018/ClashA)
+- ClashA（已停更）
 #### WinTUN（CFW在0.18.9之后集成了Wintun.dll，可不用下载）[点击即可下载](https://www.wintun.net/builds)
 
 ### 路由器
@@ -37,6 +38,7 @@
 - [luci-aop-clash（仅限OpenWRT）](https://github.com/frainzy1477/luci-app-clash)
 - [Koolshare Clash（仅限Koolshare固件）](https://github.com/SukkaW/Koolshare-Clash)
 - [Nanopi-R2S-Openclash](https://github.com/soffchen/NanoPi-R2S)
+- [ShellClash](https://github.com/juewuy/ShellClash)
 
 ### 其他
 - [Clash Web（全平台）](https://github.com/lzdnico/ClashWeb)
