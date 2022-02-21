@@ -12,15 +12,17 @@
 ------
 
 # 软件Repo地址
-## 多协议通用软件
-- [Shadowrocket(仅限iOS系统)](https://itunes.apple.com/us/app/shadowrocket/id932747118?mt=8)
-- [Quantumult(仅限iOS系统)](https://itunes.apple.com/us/app/quantumult/id1252015438?mt=8)
-- [Surge(仅限MacOS系统)](https://www.nssurge.com/)
+## 苹果生态专用软件
+- [Shadowrocket(仅限iOS系统，不支持intel Mac，一般定价：**2.99USD**)](https://itunes.apple.com/us/app/shadowrocket/id932747118?mt=8)
+- [QuantumultX(iOS/MacOS授权通用，支持Intel-Mac/M1-Mac，一般定价：**4.99USD**)](https://apps.apple.com/us/app/quantumult-x/id1443988620)
+- [Surge(iOS/MacOS授权分离，定价超高，一般不推荐)](https://www.nssurge.com/)
+- [Loon(iOS/MacOS授权通用)](https://apps.apple.com/us/app/loon/id1373567447)
 
 ## Clash软件（支持除Vless以外所有协议）
 ### Clash核心
-- [Clash原版](https://github.com/Dreamacro/clash)
-- [Clash.Meta](https://github.com/MetaCubeX/Clash.Meta/releases)
+- [Clash开源核](https://github.com/Dreamacro/clash)
+- [Clash闭源核](https://github.com/Dreamacro/clash/releases/tag/premium)
+- [Clash.Meta(支持Xtls、优化逻辑)](https://github.com/MetaCubeX/Clash.Meta/releases)
 ### Windows![img](https://www.v2ray.com/resources/win.svg)
 - [Clash for Windows（软件较大，功能齐全）](https://github.com/Fndroid/clash_for_windows_pkg/releases/latest)
 - [Clash.Mini（使用Go语言编写的简洁版UI，集成了魔改内核）](https://github.com/Clash-Mini/Clash.Mini/releases/latest)
