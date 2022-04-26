@@ -26,7 +26,7 @@
 ### Windows![img](https://www.v2ray.com/resources/win.svg)
 - [Clash for Windows（软件较大，功能齐全）](https://github.com/Fndroid/clash_for_windows_pkg/releases/latest)
 - [Clash.Mini（使用Go语言编写的简洁版UI，集成了魔改内核）](https://github.com/Clash-Mini/Clash.Mini/releases/latest)
-- Clash.NET（软件小，附带Pcap2Socks） **已停更并删库**
+- Clash.NET（软件小，附带Pcap2Socks） **[最后一个备份版本](https://github.com/V2RaySSR/Clash.Net/releases/tag/V1.2.8)**
 - ClashR for Windows（已停更，且不支持新版配置） **已停更并删库**
 ### Mac![img](https://www.v2ray.com/resources/apple.svg)
 - [ClashX（仅限Mac使用）](https://github.com/yichengchen/clashX)
