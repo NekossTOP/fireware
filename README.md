@@ -24,6 +24,7 @@
 - [Clash for Windows汉化版](https://github.com/ender-zhao/Clash-for-Windows_Chinese/releases/latest)
 - [Clash.Mini（使用Go语言编写的简洁版UI，集成了Meta内核）](https://github.com/Clash-Mini/Clash.Mini/releases/latest)
 - [ClashWarden（使用C++编写的小巧客户端）](https://github.com/dream7180/ClashWarden)
+- [ClashN（V2rayN作者做的同界面客户端）](https://github.com/2dust/clashN)
 - [ClashR Auto（基于CFW魔改，更适合小白使用）](https://github.com/ClashrAuto/Clashr-Auto-Desktop/releases/latest)
 - [clash-for-flutter（使用谷歌Flutter框架编写）](https://github.com/mapleafgo/clash-for-flutter/releases/latest)
 - Clash.NET（软件小，附带Pcap2Socks） **[最后一个备份版本](https://github.com/V2RaySSR/Clash.Net/releases/tag/V1.2.8)**
