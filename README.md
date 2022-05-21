@@ -13,6 +13,8 @@
 - [Surge(iOS/MacOS授权分离，定价超高，一般不推荐)](https://www.nssurge.com/)
 - [Loon(iOS/MacOS授权通用)](https://apps.apple.com/us/app/loon/id1373567447)
 
+### [Surfboard（安卓独享，兼容Surge4配置文件）](https://github.com/getsurfboard/surfboard/releases)
+
 ## Clash软件（支持除Vless以外所有协议）
 ### Clash核心
 - [Clash开源核](https://github.com/Dreamacro/clash)
@@ -36,6 +38,7 @@
 ### Android（安卓）![img](https://www.v2ray.com/resources/android.svg)
 - [Clash for Android](https://github.com/Kr328/ClashForAndroid/releases/latest)
 - [Clash for Magisk（需ROOT）](https://github.com/kalasutra/Clash_For_Magisk)
+- [SagerNet（兼容SSR、v2ray、clash配置）](https://github.com/getsurfboard/surfboard/releases)
 - ClashA（已停更）
 ### iOS![img](https://www.v2ray.com/resources/ios.svg)
 - [Stash（功能更强大，堪比QuantumultX）](https://apps.apple.com/app/stash/id1596063349)
