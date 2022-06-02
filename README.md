@@ -24,6 +24,7 @@
 - [Clash for Windows（软件较大，功能齐全）](https://github.com/Fndroid/clash_for_windows_pkg/releases/latest)
 - [Clash for Windows汉化版](https://github.com/ender-zhao/Clash-for-Windows_Chinese/releases/latest)
 - [Clash.Mini（使用Go语言编写的简洁版UI，集成了Meta内核）](https://github.com/Clash-Mini/Clash.Mini/releases/latest)
+- [Clash Verge（需要EdgeRuntime2，轻量好用）](https://github.com/zzzgydi/clash-verge/releases)
 - [ClashWarden（使用C++编写的小巧客户端）](https://github.com/dream7180/ClashWarden)
 - [ClashN（V2rayN作者做的同界面客户端）](https://github.com/2dust/clashN)
 - [ClashR Auto（基于CFW魔改，更适合小白使用）](https://github.com/ClashrAuto/Clashr-Auto-Desktop/releases/latest)
