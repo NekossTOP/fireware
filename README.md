@@ -6,6 +6,10 @@
 - 本Repo仅提供客户端软件，不提供服务端软件，如需搭建，请出门右转[搭建脚本（需要科学上网）](https://www.v2rayssr.com/tag/%E4%B8%80%E9%94%AE%E5%AE%89%E8%A3%85%E8%84%9A%E6%9C%AC)
 - 如果需要使用订阅转换服务，请 **[点击这里](https://id9.cc/)**
 
+# Geoip与Geosite获取地址
+- 如您需要下载Geoip.dat、Country.mmdb、Geosite.dat文件，请从[LoyalSodier的库](https://github.com/Loyalsoldier/v2ray-rules-dat)下载
+- 关于GeoSite、Geoip中的内容，请参照[本Repo](https://github.com/v2fly/domain-list-community/tree/master/data)
+
 # 软件Repo地址
 ## 苹果生态专用软件
 - [Shadowrocket(仅限iOS系统，不支持intel Mac，一般定价：**2.99USD**)](https://itunes.apple.com/us/app/shadowrocket/id932747118?mt=8)
