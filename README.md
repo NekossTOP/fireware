@@ -19,6 +19,10 @@
 
 ### [Surfboard（安卓独享，兼容Surge4配置文件）](https://github.com/getsurfboard/surfboard/releases)
 
+## Sing-box软件（新软件，[官方文档](https://sing-box.sagernet.org/)）
+### [Sing-box 核心](https://github.com/SagerNet/sing-box)
+### [Sing-box 托盘GUI](https://github.com/daodao97/SingBox/releases)
+
 ## Clash软件（支持除Vless以外所有协议）
 ### Clash核心
 - [Clash开源核](https://github.com/Dreamacro/clash)
@@ -34,8 +38,6 @@
 - [ClashR Auto（基于CFW魔改，更适合小白使用）](https://github.com/ClashrAuto/Clashr-Auto-Desktop/releases/latest)
 - [clash-for-flutter（使用谷歌Flutter框架编写）](https://github.com/mapleafgo/clash-for-flutter/releases/latest)
 - [Clashy（桌面全平台）](https://github.com/SpongeNobody/Clashy)
-- Clash.NET（软件小，增强模式通过WFP实现） **[最后一个备份版本](https://github.com/V2RaySSR/Clash.Net/releases/tag/V1.2.8)**
-- ClashR for Windows（已停更，且不支持新版配置） **已停更并删库**
 ### Mac![img](https://www.v2ray.com/resources/apple.svg)
 - [ClashX（仅限Mac使用）](https://github.com/yichengchen/clashX)
 - [Clashy（桌面全平台）](https://github.com/SpongeNobody/Clashy)
@@ -43,8 +45,6 @@
 ### Android（安卓）![img](https://www.v2ray.com/resources/android.svg)
 - [Clash for Android](https://github.com/Kr328/ClashForAndroid/releases/latest)
 - [Clash for Magisk（需ROOT）](https://github.com/kalasutra/Clash_For_Magisk)
-- [SagerNet（兼容SSR、v2ray、clash配置）](https://github.com/getsurfboard/surfboard/releases)
-- ClashA（已停更）
 ### iOS![img](https://www.v2ray.com/resources/ios.svg)
 - [Stash（功能更强大，堪比QuantumultX）](https://apps.apple.com/app/stash/id1596063349)
 - [Choc（功能简单，适合小白）](https://apps.apple.com/us/app/choc/id1582542227)
@@ -66,19 +66,19 @@
 
 ### 太多了，不一一列举了，这些够用了。
 
-## V2ray
+## V2ray & Xray
 
 ### 原版V2ray-Core
 - [V2ray-Core【官网】](https://www.v2ray.com/)
 - [V2ray-Core【Github】](https://github.com/v2ray/v2ray-core/releases)
 
 ### 桌面端全平台通用
-- [Qv2Ray](https://github.com/lhy0403/Qv2ray)
+- [Qv2Ray（已停更）](https://github.com/lhy0403/Qv2ray)
 - [Maple](https://github.com/YtFlow/Maple)
 - [V2ray Desktop](https://github.com/Dr-Incognito/V2Ray-Desktop)
 
 ### Windows![img](https://www.v2ray.com/resources/win.svg)
-- [V2rayW](https://github.com/Cenmrev/V2RayW)
+- [Nekoray（魔改Qv2Ray，增加hysteria等新协议支持）](https://matsuridayo.github.io/download/)
 - [V2rayN](https://github.com/2dust/v2rayN)
 
 ### Mac![img](https://www.v2ray.com/resources/apple.svg)
@@ -87,6 +87,8 @@
 - [V2rayC](https://github.com/gssdromen/V2RayC)
 
 ### Android（安卓）![img](https://www.v2ray.com/resources/android.svg)
+- [SagerNet（兼容SSR、v2ray、clash配置）](https://github.com/SagerNet/SagerNet/releases)
+- [Matsuri（魔改版Sagernet，与原版差距不大）](https://matsuridayo.github.io/download/)
 - [V2rayNG](https://github.com/2dust/v2rayNG)
 - [BifrostV (Play Store)](https://play.google.com/store/apps/details?id=com.github.dawndiy.bifrostv)
 - [Kitsunebi (Play Store)](https://play.google.com/store/apps/details?id=fun.kitsunebi.kitsunebi4android&hl=en_US)
