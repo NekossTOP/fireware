@@ -1,101 +1,120 @@
-# 各种代理软件客户端最新下载地址
-
-# 免责声明
-
-- 本Repo仅提供软件，不提供机场服务。具体服务请出门左转 **[谷歌娘](https://www.google.com/ncr)** ~~或者看到最下面呢？~~
-- 本Repo仅提供客户端软件，不提供服务端软件，如需搭建，请出门右转[搭建脚本（需要科学上网）](https://www.v2rayssr.com/tag/%E4%B8%80%E9%94%AE%E5%AE%89%E8%A3%85%E8%84%9A%E6%9C%AC)
-- 如果需要使用订阅转换服务，请 **[点击这里](https://id9.cc/)**
+# 各种代理软件客户端 & 搭建脚本最新地址
 
 # Geoip与Geosite获取地址
 - 如您需要下载Geoip.dat、Country.mmdb、Geosite.dat文件，请从[LoyalSodier的库](https://github.com/Loyalsoldier/v2ray-rules-dat)下载
 - 关于GeoSite、Geoip中的内容，请参照[本Repo](https://github.com/v2fly/domain-list-community/tree/master/data)
 
 # 软件Repo地址
-## 苹果生态专用软件
-- [Shadowrocket(仅限iOS系统，不支持intel Mac，一般定价：**2.99USD**)](https://itunes.apple.com/us/app/shadowrocket/id932747118?mt=8)
-- [QuantumultX(iOS/MacOS授权通用，支持Intel-Mac/M1-Mac，一般定价：**4.99USD**)](https://apps.apple.com/us/app/quantumult-x/id1443988620)
-- [Surge(iOS/MacOS授权分离，定价超高，一般不推荐)](https://www.nssurge.com/)
-- [Loon(iOS/MacOS授权通用)](https://apps.apple.com/us/app/loon/id1373567447)
+## 内核（无GUI）列表：
+### 常见内核（即拥有完善生态的内核）
+<details><summary>点我展开</summary>
+<p>
+  
+  - v2ray(来自v2fly.org)：https://github.com/v2fly/v2ray-core/releases
+  - xray(来自XTLS)：https://github.com/XTLS/Xray-core/releases
+  - trojan(又称trojan-gfw)：https://github.com/trojan-gfw/trojan/releases
+  - trojan-go(来自pagef4ult)：https://github.com/p4gefau1t/trojan-go/releases
+  - trojan-go(来自gfw-report)：https://github.com/gfw-report/trojan-go/releases
+  - clash(Dreamacro原版)：https://github.com/Dreamacro/clash/releases/tag/premium
+  - clash-meta(魔改版，支持vless、hysteria等新协议)：https://docs.metacubex.one/
+  
+</p>
+</details>
 
-### [Surfboard（安卓独享，兼容Surge4配置文件）](https://github.com/getsurfboard/surfboard/releases)
+**注：Shadowsocks(R)由于年久失修，且自建脚本已基本不更新，因此不予收录**
 
-## Sing-box软件（新软件，[官方文档](https://sing-box.sagernet.org/)）
-### [Sing-box 核心](https://github.com/SagerNet/sing-box)
-### [Sing-box 托盘GUI](https://github.com/daodao97/SingBox/releases)
+### 非常见内核（即无完善生态的内核）
+<details><summary>点我展开</summary>
+<p>
+  
+  - Sing-Box(类似v2ray且包含精准分流的代理工具)：https://github.com/SagerNet/sing-box
+  - Hysteria(基于udp协议的暴力发包代理)：https://github.com/HyNetwork/hysteria/releases
+  - Tuic(基于Quic + BBR的优秀代理)：https://github.com/EAimTY/tuic/releases
+  - NaiveProxy(基于Chromium制作)：https://github.com/klzgrad/naiveproxy/releases
+  - Mieru：https://github.com/enfein/mieru/releases
+  - v2ray_simple(魔改v2ray)：https://github.com/e1732a364fed/v2ray_simple/releases
+  
+</p>
+</details>
 
-## Clash软件（支持除Vless以外所有协议）
-### Clash核心
-- [Clash开源核](https://github.com/Dreamacro/clash)
-- [Clash闭源核](https://github.com/Dreamacro/clash/releases/tag/premium)
-- [Clash.Meta(支持Xtls、优化逻辑)](https://github.com/MetaCubeX/Clash.Meta/releases)
-### Windows![img](https://www.v2ray.com/resources/win.svg)
-- [Clash for Windows（软件较大，功能齐全）](https://github.com/Fndroid/clash_for_windows_pkg/releases/latest)
-- [Clash for Windows汉化版](https://github.com/ender-zhao/Clash-for-Windows_Chinese/releases/latest)
-- [Clash.Mini（使用Go语言编写的简洁版UI，集成了Meta内核）](https://github.com/Clash-Mini/Clash.Mini/releases/latest)
-- [Clash Verge（需要EdgeRuntime2，轻量好用）](https://github.com/zzzgydi/clash-verge/releases)
-- [ClashWarden（使用C++编写的小巧客户端）](https://github.com/dream7180/ClashWarden)
-- [ClashN（V2rayN作者做的同界面客户端）](https://github.com/2dust/clashN)
-- [ClashR Auto（基于CFW魔改，更适合小白使用）](https://github.com/ClashrAuto/Clashr-Auto-Desktop/releases/latest)
-- [clash-for-flutter（使用谷歌Flutter框架编写）](https://github.com/mapleafgo/clash-for-flutter/releases/latest)
-- [Clashy（桌面全平台）](https://github.com/SpongeNobody/Clashy)
-### Mac![img](https://www.v2ray.com/resources/apple.svg)
-- [ClashX（仅限Mac使用）](https://github.com/yichengchen/clashX)
-- [Clashy（桌面全平台）](https://github.com/SpongeNobody/Clashy)
-- [clash-for-flutter（使用谷歌Flutter框架编写）](https://github.com/mapleafgo/clash-for-flutter)
-### Android（安卓）![img](https://www.v2ray.com/resources/android.svg)
-- [Clash for Android](https://github.com/Kr328/ClashForAndroid/releases/latest)
-- [Clash for Magisk（需ROOT）](https://github.com/kalasutra/Clash_For_Magisk)
-### iOS![img](https://www.v2ray.com/resources/ios.svg)
-- [Stash（功能更强大，堪比QuantumultX）](https://apps.apple.com/app/stash/id1596063349)
-- [Choc（功能简单，适合小白）](https://apps.apple.com/us/app/choc/id1582542227)
-#### WinTUN（CFW在0.18.9之后集成了Wintun.dll，可不用下载）[点击即可下载](https://www.wintun.net/builds)
+**注：由于各类魔改、自建核心过多，因此收录不一定完整**
+
+## 客户端GUI软件（不收录SS(R)）
+
+### 苹果系客户端 ![img](https://www.v2ray.com/resources/apple.svg)
+
+<details><summary>点我展开</summary>
+<p>
+
+  - [Shadowrocket(仅限iOS系统，不支持intel Mac，一般定价：**2.99USD**)](https://itunes.apple.com/us/app/shadowrocket/id932747118?mt=8)
+  - [QuantumultX(iOS/MacOS授权通用，支持Intel-Mac/M1-Mac，一般定价：**4.99USD**)](https://apps.apple.com/us/app/quantumult-x/id1443988620)
+  - [Surge(iOS/MacOS授权分离，定价超高，一般不推荐)](https://www.nssurge.com/)
+  - [Loon(iOS/MacOS授权通用)](https://apps.apple.com/us/app/loon/id1373567447)
+  - [Stash(iOS可用，**2.99USD**)](https://apps.apple.com/us/app/stash-rule-based-proxy/id1596063349)
+  - [ClashX（仅限Mac使用）](https://github.com/yichengchen/clashX)
+  - [V2rayX（仅限Mac使用）](https://github.com/Cenmrev/V2RayX)
+  - [Sing-box 托盘GUI](https://github.com/daodao97/SingBox/releases)
+
+</p>
+</details>
+
+### Windows客户端 ![img](https://www.v2ray.com/resources/win.svg)
+
+<details><summary>点我展开</summary>
+<p>
+  
+  #### Clash系
+  > - [Clash for Windows（软件较大，功能齐全）](https://github.com/Fndroid/clash_for_windows_pkg/releases/latest)
+  > - [Clash for Windows汉化版](https://github.com/ender-zhao/Clash-for-Windows_Chinese/releases/latest)
+  > - [Clash.Mini（使用Go语言编写的简洁版UI，集成了Meta内核）](https://github.com/Clash-Mini/Clash.Mini/releases/latest)
+  > - [Clash Verge（需要EdgeRuntime2，轻量好用）](https://github.com/zzzgydi/clash-verge/releases)
+  > - [ClashWarden（使用C++编写的小巧客户端）](https://github.com/dream7180/ClashWarden)
+  > - [ClashN（V2rayN作者做的同界面客户端）](https://github.com/2dust/clashN)
+  > - [ClashR Auto（基于CFW魔改，更适合小白使用）](https://github.com/ClashrAuto/Clashr-Auto-Desktop/releases/latest)
+  > - [clash-for-flutter（使用谷歌Flutter框架编写）](https://github.com/mapleafgo/clash-for-flutter/releases/latest)
+  > - [Clashy（桌面全平台）](https://github.com/SpongeNobody/Clashy)
+  
+  #### V2ray系
+  > - [Nekoray（魔改Qv2Ray，增加hysteria等新协议支持）](https://matsuridayo.github.io/download/)
+  > - [V2rayN（陈年老UI，胜在使用方便）](https://github.com/2dust/v2rayN)
+  
+  #### Sing-Box
+  > - [Sing-box 托盘GUI](https://github.com/daodao97/SingBox/releases)
+  
+</p>
+</details>
+
+### 安卓客户端 ![img](https://www.v2ray.com/resources/android.svg)
+
+<details><summary>点我展开</summary>
+<p>
+  
+  #### V2ray系
+  > - [SagerNet（兼容SSR、v2ray、clash配置）](https://github.com/SagerNet/SagerNet/releases)
+  > - [Matsuri（魔改版Sagernet，与原版差距不大）](https://matsuridayo.github.io/download/)
+  > - [V2rayNG](https://github.com/2dust/v2rayNG)
+  
+  #### Clash系
+  > - [Clash for Android](https://github.com/Kr328/ClashForAndroid/releases/latest)
+  > - [Clash for Magisk（需ROOT）](https://github.com/kalasutra/Clash_For_Magisk)
+  > - [Surfboard（兼容Surge4配置文件）](https://github.com/getsurfboard/surfboard/releases)
+  
+</p>
+</details>
 
 ### 路由器
-- [OpenClash（仅限OpenWRT）](https://github.com/vernesong/OpenClash)
-- [luci-aop-clash（仅限OpenWRT）](https://github.com/frainzy1477/luci-app-clash)
-- [Koolshare Clash（仅限Koolshare固件）](https://github.com/SukkaW/Koolshare-Clash)
-- [Nanopi-R2S-Openclash](https://github.com/soffchen/NanoPi-R2S)
-- [ShellClash](https://github.com/juewuy/ShellClash)
 
-### 其他
-- [Clash Web（全平台）](https://github.com/lzdnico/ClashWeb)
-- [ShellClash（理论上只要能SSH连接上的客户端都能用）](https://github.com/juewuy/ShellClash)
+<details><summary>点我展开</summary>
+<p>
+  
+  - [OpenClash（仅限OpenWRT）](https://github.com/vernesong/OpenClash)
+  - [luci-aop-clash（仅限OpenWRT）](https://github.com/frainzy1477/luci-app-clash)
+  - [Koolshare Clash（仅限Koolshare固件）](https://github.com/SukkaW/Koolshare-Clash)
+  - [Nanopi-R2S-Openclash](https://github.com/soffchen/NanoPi-R2S)
+  - [ShellClash](https://github.com/juewuy/ShellClash)
 
-### Clash规则集（P核专用，开源核心无此功能）
-- [clash-rules](https://github.com/Loyalsoldier/clash-rules)
-
-### 太多了，不一一列举了，这些够用了。
-
-## V2ray & Xray
-
-### 原版V2ray-Core
-- [V2ray-Core【官网】](https://www.v2ray.com/)
-- [V2ray-Core【Github】](https://github.com/v2ray/v2ray-core/releases)
-
-### 桌面端全平台通用
-- [Qv2Ray（已停更）](https://github.com/lhy0403/Qv2ray)
-- [Maple](https://github.com/YtFlow/Maple)
-- [V2ray Desktop](https://github.com/Dr-Incognito/V2Ray-Desktop)
-
-### Windows![img](https://www.v2ray.com/resources/win.svg)
-- [Nekoray（魔改Qv2Ray，增加hysteria等新协议支持）](https://matsuridayo.github.io/download/)
-- [V2rayN](https://github.com/2dust/v2rayN)
-
-### Mac![img](https://www.v2ray.com/resources/apple.svg)
-- [V2rayX](https://github.com/Cenmrev/V2RayX)
-- [V2rayU](https://github.com/yanue/V2rayU)
-- [V2rayC](https://github.com/gssdromen/V2RayC)
-
-### Android（安卓）![img](https://www.v2ray.com/resources/android.svg)
-- [SagerNet（兼容SSR、v2ray、clash配置）](https://github.com/SagerNet/SagerNet/releases)
-- [Matsuri（魔改版Sagernet，与原版差距不大）](https://matsuridayo.github.io/download/)
-- [V2rayNG](https://github.com/2dust/v2rayNG)
-- [BifrostV (Play Store)](https://play.google.com/store/apps/details?id=com.github.dawndiy.bifrostv)
-- [Kitsunebi (Play Store)](https://play.google.com/store/apps/details?id=fun.kitsunebi.kitsunebi4android&hl=en_US)
-
-### iOS![img](https://www.v2ray.com/resources/ios.svg)
-- [Kitsunebi](https://itunes.apple.com/us/app/kitsunebi-proxy-utility/id1446584073?mt=8)
-- [i2Ray](https://itunes.apple.com/us/app/i2ray/id1445270056?mt=8)
+</p>
+</details>
 
 # 订阅来咯
 ## Clash免费节点
