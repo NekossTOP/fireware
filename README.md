@@ -118,6 +118,55 @@
 </p>
 </details>
 
+# 搭建脚本
+## 纯脚本
+### V2ray/Xray系
+
+<details><summary>点我展开</summary>
+<p>
+  
+  - [jackmoo1一键脚本（包含v2ray与trojan，可自定义端口，建议8443）](https://github.com/jackmoo1/xray)
+  - [Wulabing一键脚本（涉及编译nginx，安装缓慢，需要开443）](https://github.com/wulabing/V2Ray_ws-tls_bash_onekey)
+  - [yeahwu一键脚本（搭建SS+V2RAY+NGINX+WSS，开443+8080免流端口）](https://github.com/yeahwu/v2ray-wss)
+  - [甬哥备份233boy一键脚本（多协议、多方式、自定义端口，最强大的脚本）](https://gitlab.com/rwkgyg/v2ray)
+
+</p>
+</details>
+
+### Trojan系
+
+<details><summary>点我展开</summary>
+<p>
+  
+  - [overplus脚本（无需域名，使用自签证书，需要绕过TLS认证，快）](https://github.com/xyanrch/overplus)
+  - [Jhory一键脚本（需域名，支持trojan/trojan-go切换，卸载不干净）](https://github.com/Jrohy/trojan)
+  
+</p>
+</details>
+
+### 其他协议
+<details><summary>点我展开</summary>
+<p>
+  
+  - [Naive甬哥一键脚本（兼容他的其他脚本生成证书，需要域名）](https://gitlab.com/rwkgyg/naiveproxy-yg)
+  - [Hysteria甬哥一键脚本（兼容他的其他脚本生成证书，但默认为自签证书）](https://gitlab.com/rwkgyg/hysteria-yg)
+  - [Hi-Hysteria一键脚本（需要域名，小白不友好）](https://github.com/emptysuns/Hi_Hysteria)
+  
+</p>
+</details>
+
+## 面板搭建（X-UI）
+
+<details><summary>点我展开</summary>
+<p>
+  
+  - [原版X-UI（很久不更新了）](https://github.com/vaxilu/x-ui)
+  - [甬哥魔改X-UI](https://gitlab.com/rwkgyg/x-ui-yg)
+  - [另一魔改X-UI](https://github.com/FranzKafkaYu/x-ui)
+  
+</p>
+</details>
+
 # 订阅来咯
 ## Clash免费节点
 - [高质量免费节点](https://github.com/alanbobs999/TopFreeProxies) ***有订阅链接***
