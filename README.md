@@ -16,7 +16,7 @@
   - trojan-go(来自pagef4ult)：https://github.com/p4gefau1t/trojan-go/releases
   - trojan-go(来自gfw-report)：https://github.com/gfw-report/trojan-go/releases
   - clash(Dreamacro原版)：https://github.com/Dreamacro/clash/releases/tag/premium
-  - clash-meta(魔改版，支持vless、hysteria等新协议)：https://docs.metacubex.one/
+  - clash-meta(魔改版，支持vless、hysteria等新协议)：https://github.com/MetaCubeX/Clash.Meta/tree/Meta
   
 </p>
 </details>
