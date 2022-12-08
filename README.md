@@ -128,7 +128,6 @@
   - [1024.day站长姥爷的一键脚本（可搭ss/v2ray+wss，需开443+8080端口，一键卸载方法暂时未知）](https://github.com/yeahwu/v2ray-wss)
   - [jackmoo1一键脚本（包含v2ray与trojan，可自定义端口，建议8443）](https://github.com/jackmoo1/xray)
   - [Wulabing一键脚本（涉及编译nginx，安装缓慢，需要开443）](https://github.com/wulabing/V2Ray_ws-tls_bash_onekey)
-  - [yeahwu一键脚本（搭建SS+V2RAY+NGINX+WSS，开443+8080免流端口）](https://github.com/yeahwu/v2ray-wss)
   - [甬哥备份233boy一键脚本（多协议、多方式、自定义端口，最强大的脚本）](https://gitlab.com/rwkgyg/v2ray)
 
 </p>
