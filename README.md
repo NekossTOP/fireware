@@ -28,7 +28,7 @@
 <p>
   
   - Sing-Box(类似v2ray且包含精准分流的代理工具)：https://github.com/SagerNet/sing-box
-  - Hysteria(基于udp协议的暴力发包代理)：https://github.com/HyNetwork/hysteria/releases
+  - Hysteria(基于udp协议的暴力发包代理)：https://github.com/apernet/hysteria/releases
   - Tuic(基于Quic + BBR的优秀代理)：https://github.com/EAimTY/tuic/releases
   - NaiveProxy(基于Chromium制作)：https://github.com/klzgrad/naiveproxy/releases
   - Mieru：https://github.com/enfein/mieru/releases
