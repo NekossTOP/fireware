@@ -150,4 +150,5 @@ bash <(curl -L -s https://raw.githubusercontent.com/lmc999/RegionRestrictionChec
 
 **对于小白且对于翻墙IP要求低的用户来说，机场是最好的选择。但由于最近的 [v2board群体脱库事件](https://www.cnblogs.com/arrdres/p/16986407.html) 导致很多人不敢买机场，以下推荐的机场都是没有使用v2board的，因此可以放心购买：**
 - [YToo（歪兔：极稳定、贵、速度很快）](https://oxycontin.top/aff.php?aff=1637)
+- [Saiki（新开机场，低价大流量速度快）](https://saikiowo.com/#/register?code=7jLTQUSD)
 - [X-air（稳定、快速、便宜）](https://temp-linshidizhi-1.very-fast.net:666/register?aff=20158)
