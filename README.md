@@ -1,178 +1,153 @@
-# 各种代理软件客户端 & 搭建脚本最新地址
+## 前言
 
-# Geoip与Geosite获取地址
-- 如您需要下载Geoip.dat、Country.mmdb、Geosite.dat文件，请从[LoyalSodier的库](https://github.com/Loyalsoldier/v2ray-rules-dat)下载
-- 关于GeoSite、Geoip中的内容，请参照[本Repo](https://github.com/v2fly/domain-list-community/tree/master/data)
+**自2012年接触翻墙以来，我大约用过以下各类软件：**
+> - VPN系列：PPTP、L2TP类软件（类似GreenVPN等）
+> - 法轮功成员开发软件：Lantern（蓝灯）、自由门、无界……（可能还有，但我就用过这几种）
+> - 初代代理软件：Psiphon（赛风）、XX-NET（基于GAEAgent且自带一定混淆的软件，直至今天仍在更新）
+> - 传奇代理软件：Shadowsocks(R)（可以说没有这款软件就没有今天的代理软件百家齐放的局面。R.I.P. Clowwindy&Breakwa11）
+> - 现代代理软件：v2ray、xray、Clash、QuantumultX、Shadowrocket、Surge...
+> - 小众代理软件：Tuic、Hysteria、Naiveproxy、mieru...
 
-# 软件Repo地址
-## 内核（无GUI）列表：
-### 常见内核（即拥有完善生态的内核）
-<details><summary>点我展开</summary>
-<p>
+在这分享（记录）一下，方便后续查阅。
+
+## 软件归类
+
+### Windows
+
+#### Clash系
+
+> - [Clash for Windows（软件较大，功能齐全，方便调试）](https://github.com/Fndroid/clash_for_windows_pkg/releases/latest)
+> - [Clash for Windows汉化版](https://github.com/ender-zhao/Clash-for-Windows_Chinese/releases/latest)
+> - [Clash.Mini（使用Go语言编写的简洁版UI，集成了Meta内核）](https://github.com/Clash-Mini/Clash.Mini/releases/latest)
+> - [Clash Verge（需要EdgeRuntime2，轻量好用）](https://github.com/zzzgydi/clash-verge/releases)
+> - [ClashWarden（使用C++编写的小巧客户端）](https://github.com/dream7180/ClashWarden)
+> - [ClashN（V2rayN作者做的同界面客户端）](https://github.com/2dust/clashN)
+> - [ClashR Auto（基于CFW魔改，更适合小白使用）](https://github.com/ClashrAuto/Clashr-Auto-Desktop/releases/latest)
+> - [clash-for-flutter（使用谷歌Flutter框架编写）](https://github.com/mapleafgo/clash-for-flutter/releases/latest)
+> - [Clashy（桌面全平台）](https://github.com/SpongeNobody/Clashy)
+
+#### V2ray系
+
+> - [Nekoray（魔改Qv2Ray，增加hysteria等新协议支持）](https://matsuridayo.github.io/download/)
+> - [V2rayN（陈年老UI，胜在使用方便）](https://github.com/2dust/v2rayN)
+> - [Qv2ray（原维护者弃坑，已转新仓库）](https://github.com/Shadowsocks-NET/Qv2ray)
+
+#### Sing-Box
+
+> - [Sing-box 托盘GUI](https://github.com/daodao97/SingBox/releases)
   
-  - v2ray(来自v2fly.org)：https://github.com/v2fly/v2ray-core/releases
-  - xray(来自XTLS)：https://github.com/XTLS/Xray-core/releases
-  - trojan(又称trojan-gfw)：https://github.com/trojan-gfw/trojan/releases
-  - trojan-go(来自pagef4ult)：https://github.com/p4gefau1t/trojan-go/releases
-  - trojan-go(来自gfw-report)：https://github.com/gfw-report/trojan-go/releases
-  - clash(Dreamacro原版)：https://github.com/Dreamacro/clash/releases/tag/premium
-  - clash-meta(魔改版，支持vless、hysteria等新协议)：https://github.com/MetaCubeX/Clash.Meta/tree/Meta
+### Apple
+
+> - [Shadowrocket(仅限iOS系统，不支持intel Mac，一般定价：**2.99USD**)](https://itunes.apple.com/us/app/shadowrocket/id932747118?mt=8)
+> - [QuantumultX(iOS/MacOS授权通用，支持Intel-Mac/M1-Mac，一般定价：**4.99USD**)](https://apps.apple.com/us/app/quantumult-x/id1443988620)
+> - [Surge(iOS/MacOS授权分离，定价超高，一般不推荐)](https://www.nssurge.com/)
+> - [Loon(iOS/MacOS授权通用)](https://apps.apple.com/us/app/loon/id1373567447)
+> - [Stash(iOS可用，**2.99USD**)](https://apps.apple.com/us/app/stash-rule-based-proxy/id1596063349)
+> - [ClashX（仅限Mac使用）](https://github.com/yichengchen/clashX)
+> - [ClashX Meta（仅限Mac使用）](https://github.com/MetaCubeX/ClashX.Meta)
+> - [V2rayX（仅限Mac使用）](https://github.com/Cenmrev/V2RayX)
+> - [Sing-box 托盘GUI（仅限Mac使用）](https://github.com/daodao97/SingBox/releases)
+
+### 安卓客户端
+
+#### V2ray系
+
+> - [SagerNet（兼容SSR、v2ray、clash配置，带很多插件）](https://github.com/SagerNet/SagerNet/releases)
+> - [Matsuri（魔改版Sagernet，与原版差距不大，兼容原版插件）](https://matsuridayo.github.io/download/)
+> - [V2rayNG（Xray社区钦定）](https://github.com/2dust/v2rayNG)
   
-</p>
-</details>
+#### Clash系
 
-**注：Shadowsocks(R)由于年久失修，且自建脚本已基本不更新，因此不予收录**
-
-### 非常见内核（即无完善生态的内核）
-<details><summary>点我展开</summary>
-<p>
+> + [Clash for Android](https://github.com/Kr328/ClashForAndroid/releases/latest)
+> + [Clash Meta for Android](https://github.com/MetaCubeX/ClashMetaForAndroid/releases/tag/Prerelease-alpha)
+> + [Clash for Magisk（需ROOT）](https://github.com/kalasutra/Clash_For_Magisk)
   
-  - Sing-Box(类似v2ray且包含精准分流的代理工具)：https://github.com/SagerNet/sing-box
-  - Hysteria(基于udp协议的暴力发包代理)：https://github.com/apernet/hysteria/releases
-  - Tuic(基于Quic + BBR的优秀代理)：https://github.com/EAimTY/tuic/releases
-  - NaiveProxy(基于Chromium制作)：https://github.com/klzgrad/naiveproxy/releases
-  - Mieru：https://github.com/enfein/mieru/releases
-  - v2ray_simple(魔改v2ray)：https://github.com/e1732a364fed/v2ray_simple/releases
-  
-</p>
-</details>
+#### [Surfboard（兼容Surge4配置文件）](https://github.com/getsurfboard/surfboard/releases)
 
-**注：由于各类魔改、自建核心过多，因此收录不一定完整**
+## 搭建脚本归类
 
-## 客户端GUI软件（不收录SS(R)）
+**所有脚本我本人都使用过，无好坏之分，只有适合你自己的才是最好的**
 
-### 苹果系客户端 ![img](https://www.v2ray.com/resources/apple.svg)
+### v2ray/xray脚本
 
-<details><summary>点我展开</summary>
-<p>
+> - [233boy经典脚本](https://github.com/233boy/v2ray/wiki/V2Ray%E4%B8%80%E9%94%AE%E5%AE%89%E8%A3%85%E8%84%9A%E6%9C%AC)
+> - [wulabing xray核心一键脚本，推荐nginx前置方案](https://github.com/wulabing/Xray_onekey)
+> - [mack-a 编写的八合一脚本，简单易用](https://www.v2ray-agent.com/archives/1680104902581)
+> - [1024.day站长自编简易wss+ss安装脚本，需要443/8080端口开放，大流量会被探测，脚本足够安全](https://oldcat.cf/1024day-v2ray)
+> - [基于Sing-box的Vless+Reality节点搭建脚本](https://blog.misaka.rest/2023/04/07/singbox-reality-script/)
+> - [vless+XTLS_VISION/gRPC+REALITY 手动搭建方法](https://github.com/chika0801/Xray-install/blob/main/REALITY.md)
 
-  - [Shadowrocket(仅限iOS系统，不支持intel Mac，一般定价：**2.99USD**)](https://itunes.apple.com/us/app/shadowrocket/id932747118?mt=8)
-  - [QuantumultX(iOS/MacOS授权通用，支持Intel-Mac/M1-Mac，一般定价：**4.99USD**)](https://apps.apple.com/us/app/quantumult-x/id1443988620)
-  - [Surge(iOS/MacOS授权分离，定价超高，一般不推荐)](https://www.nssurge.com/)
-  - [Loon(iOS/MacOS授权通用)](https://apps.apple.com/us/app/loon/id1373567447)
-  - [Stash(iOS可用，**2.99USD**)](https://apps.apple.com/us/app/stash-rule-based-proxy/id1596063349)
-  - [ClashX（仅限Mac使用）](https://github.com/yichengchen/clashX)
-  - [V2rayX（仅限Mac使用）](https://github.com/Cenmrev/V2RayX)
-  - [Sing-box 托盘GUI](https://github.com/daodao97/SingBox/releases)
+### Trojan脚本
 
-</p>
-</details>
+***请注意：Trojan原版核心已两年多未更新，Trojan-go核心已一年多未更新，因此存在被探测可能性，保稳定性推荐使用v2ray/xray脚本或使用下方的小众协议***
+> - [世界上最简单的Trojan一键部署脚本，无需域名申请（目前本人正在使用）](https://github.com/maplecool/easytrojan)
+> - [BBR + Trojan-go + 其他脚本合集](https://github.com/yuehen7/scripts)
+> - [Overplus，IP裸连（基于trojan，域名sniffer为bing搜索，但客户端跳过证书验证，目前稳定性尚佳）](https://github.com/xyanrch/overplus)
+> - [Jrohy的Trojan一键脚本，但卸载部分无法完全删除安装时产生的文件，不是很推荐](https://github.com/Jrohy/trojan)
 
-### Windows客户端 ![img](https://www.v2ray.com/resources/win.svg)
+### 小众协议脚本/教程
 
-<details><summary>点我展开</summary>
-<p>
-  
-  #### Clash系
-  > - [Clash for Windows（软件较大，功能齐全）](https://github.com/Fndroid/clash_for_windows_pkg/releases/latest)
-  > - [Clash for Windows汉化版](https://github.com/ender-zhao/Clash-for-Windows_Chinese/releases/latest)
-  > - [Clash.Mini（使用Go语言编写的简洁版UI，集成了Meta内核）](https://github.com/Clash-Mini/Clash.Mini/releases/latest)
-  > - [Clash Verge（需要EdgeRuntime2，轻量好用）](https://github.com/zzzgydi/clash-verge/releases)
-  > - [ClashN（V2rayN作者做的同界面客户端）](https://github.com/2dust/clashN)
-  > - [ClashWarden（使用C++编写的小巧客户端）](https://github.com/dream7180/ClashWarden)
-  > - [Clasharp（使用C#写的GUI）](https://github.com/moonheart/Clasharp)
-  > - [ClashR Auto（基于CFW魔改，更适合小白使用）](https://github.com/ClashrAuto/Clashr-Auto-Desktop/releases/latest)
-  > - [clash-for-flutter（使用谷歌Flutter框架编写）](https://github.com/mapleafgo/clash-for-flutter/releases/latest)
-  > - [Clashy（桌面全平台）](https://github.com/SpongeNobody/Clashy)
-  
-  #### V2ray系
-  > - [Nekoray（魔改Qv2Ray，增加hysteria等新协议支持）](https://matsuridayo.github.io/download/)
-  > - [V2rayN（陈年老UI，胜在使用方便）](https://github.com/2dust/v2rayN)
-  
-  #### Sing-Box
-  > - [Sing-box 托盘GUI](https://github.com/daodao97/SingBox/releases)
-  
-</p>
-</details>
+***本Part中很少会出现一键脚本，大多为分步骤教学，需要对Linux有一定基础知识。同时大多数小众协议并无图形化UI，因此请使用v2rayN或Nekoray添加自定义核心后使用，具体使用方法请参考[此处](https://matsuridayo.github.io/n-extra_core/)***
+> - [Naiveproxy一键安装脚本](https://blog.misaka.rest/2023/04/08/naiveproxy-script/)
+> - [Hi-Hysteria一键安装脚本（目前本人主要使用）](https://github.com/emptysuns/Hi_Hysteria)
+> - [Tuic安装指南（使用clash-meta核心而非原版Tuic）](https://oldcat.cf/clashmeta)
+> - [mieru官方教程（分步骤且为英文，非脚本）](https://github.com/enfein/mieru)
+> - [socks5代理搭建](https://sunpma.com/724.html)
 
-### 安卓客户端 ![img](https://www.v2ray.com/resources/android.svg)
+#### 小众协议补充：
 
-<details><summary>点我展开</summary>
-<p>
-  
-  #### V2ray系
-  > - [SagerNet（兼容SSR、v2ray、clash配置）](https://github.com/SagerNet/SagerNet/releases)
-  > - [Matsuri（魔改版Sagernet，与原版差距不大）](https://matsuridayo.github.io/download/)
-  > - [V2rayNG](https://github.com/2dust/v2rayNG)
-  
-  #### Clash系
-  > - [Clash for Android](https://github.com/Kr328/ClashForAndroid/releases/latest)
-  > - [Clash Meta for Android](https://github.com/MetaCubeX/ClashMetaForAndroid/releases/tag/Prerelease-alpha)
-  > - [Clash for Magisk（需ROOT）](https://github.com/kalasutra/Clash_For_Magisk)
-  
-  #### [Surfboard（兼容Surge4配置文件）](https://github.com/getsurfboard/surfboard/releases)
-  
-</p>
-</details>
+1.  目前对于如Racknerd、virmach这类无药可救的机器，可以使用Hysteria协议，如有CN2GIA、CU4837、CU9929等优秀线路的机器推荐优先考虑Tuic、Naiveproxy等有流控的协议（Hysteria无法搭建在Racknerd机器上）。
+2.  [Clash.meta](https://docs.metacubex.one/)目前已对Tuic、Hysteria做了较为完善的支持，不想添加自定义配置和核心的可以使用此软件（关于替换核心可以看[本人教程](https://www.youtube.com/watch?v=V5v3eBi-sXo)）
 
-### 路由器
+### 面板搭建
+> - [原版X-UI（很久不更新了）](https://github.com/vaxilu/x-ui)
+> - [魔改X-UI](https://github.com/FranzKafkaYu/x-ui)
 
-<details><summary>点我展开</summary>
-<p>
-  
-  - [OpenClash（仅限OpenWRT）](https://github.com/vernesong/OpenClash)
-  - [luci-aop-clash（仅限OpenWRT）](https://github.com/frainzy1477/luci-app-clash)
-  - [Koolshare Clash（仅限Koolshare固件）](https://github.com/SukkaW/Koolshare-Clash)
-  - [Nanopi-R2S-Openclash](https://github.com/soffchen/NanoPi-R2S)
-  - [ShellClash](https://github.com/juewuy/ShellClash)
+## VPS测试脚本
 
-</p>
-</details>
+- 萌咖大佬的DD脚本（如VPS为甲骨文ARM，则需要加 `-firmware`）
+```shell
+bash <(wget --no-check-certificate -qO- 'https://raw.githubusercontent.com/MoeClub/Note/master/InstallNET.sh') -d 11 -v 64 -p p@ssw0rd -a
+```
+- 宝塔面板开心版7.7.0（无后台监控）
+```shell
+curl -sSO https://raw.githubusercontent.com/8838/btpanel-v7.7.0/main/install/install_panel.sh && bash install_panel.sh
 
-# 搭建脚本
-## 纯脚本
-### V2ray/Xray系
+# 1，屏蔽手机号
+sed -i "s|bind_user == 'True'|bind_user == 'XXXX'|" /www/server/panel/BTPanel/static/js/index.js
+# 2，删除强制绑定手机js文件
+rm -f /www/server/panel/data/bind.pl
+# 3，手动解锁宝塔所有付费插件为永不过期
+文件路径：/www/server/panel/data/plugin.json
+搜索字符串："endtime": -1全部替换为"endtime": 999999999999
+# 4，给plugin.json文件上锁防止自动修复为免费版
+chattr +i /www/server/panel/data/plugin.json
+```
+- 开启BBR+FQ
+```shell
+echo "net.core.default_qdisc=fq" >> /etc/sysctl.conf
+echo "net.ipv4.tcp_congestion_control=bbr" >> /etc/sysctl.conf
+sysctl -p
+sysctl net.ipv4.tcp_available_congestion_control
+lsmod | grep bbr
+```
+- 另一开启BBR脚本（秋水逸冰大佬）
+```shell
+wget --no-check-certificate -O /opt/bbr.sh https://github.com/teddysun/across/raw/master/bbr.sh
+chmod 755 /opt/bbr.sh
+/opt/bbr.sh
+```
+- 三网测速
+```shell
+bash <(curl -Lso- https://git.io/superspeed_uxh)
+```
+- 解锁测试
+```shell
+bash <(curl -L -s https://raw.githubusercontent.com/lmc999/RegionRestrictionCheck/main/check.sh)
+```
 
-<details><summary>点我展开</summary>
-<p>
-  
-  - [1024.day站长姥爷的一键脚本（可搭ss/v2ray+wss，需开443+8080端口，一键卸载方法暂时未知）](https://github.com/yeahwu/v2ray-wss)
-  - [jackmoo1一键脚本（包含v2ray与trojan，可自定义端口，建议8443）](https://github.com/jackmoo1/xray)
-  - [Wulabing一键脚本（涉及编译nginx，安装缓慢，需要开443）](https://github.com/wulabing/V2Ray_ws-tls_bash_onekey)
-  - [甬哥备份233boy一键脚本（多协议、多方式、自定义端口，最强大的脚本）](https://gitlab.com/rwkgyg/v2ray)
+## 机场
 
-</p>
-</details>
-
-### Trojan系
-
-<details><summary>点我展开</summary>
-<p>
-  
-  - [overplus脚本（无需域名，使用自签证书，需要绕过TLS认证，快）](https://github.com/xyanrch/overplus)
-  - [Jhory一键脚本（需域名，支持trojan/trojan-go切换，卸载不干净）](https://github.com/Jrohy/trojan)
-  
-</p>
-</details>
-
-### 其他协议
-<details><summary>点我展开</summary>
-<p>
-  
-  - [Naive甬哥一键脚本（兼容他的其他脚本生成证书，需要域名）](https://gitlab.com/rwkgyg/naiveproxy-yg)
-  - [Hysteria甬哥一键脚本（兼容他的其他脚本生成证书，但默认为自签证书）](https://gitlab.com/rwkgyg/hysteria-yg)
-  - [Hi-Hysteria一键脚本（需要域名，小白不友好）](https://github.com/emptysuns/Hi_Hysteria)
-  
-</p>
-</details>
-
-## 面板搭建（X-UI）
-
-<details><summary>点我展开</summary>
-<p>
-  
-  - [原版X-UI（很久不更新了）](https://github.com/vaxilu/x-ui)
-  - [甬哥魔改X-UI](https://gitlab.com/rwkgyg/x-ui-yg)
-  - [另一魔改X-UI](https://github.com/FranzKafkaYu/x-ui)
-  
-</p>
-</details>
-
-# 订阅来咯
-## Clash免费节点
-- [高质量免费节点](https://github.com/alanbobs999/TopFreeProxies) ***有订阅链接***
-- [频繁更新的免费节点](https://github.com/aiboboxx/clashfree) ***有订阅链接***
-- [半月更新的免费Clash节点列表](https://github.com/FMYC2015/Clash) ***需要手动导入配置文件***
-- [一两天一更的Clash节点](https://github.com/pojiezhiyuanjun/freev2) ***需要手动导入配置文件***
-- [比较稳定（但不一定高速）的Clash节点](https://bulink.xyz/) ***需要注册后使用，会自动更新订阅***
-- [比较老的节点（两年前更新，不知道能不能用）](https://github.com/ID-10086/freenode)
+**对于小白且对于翻墙IP要求低的用户来说，机场是最好的选择。但由于最近的 [v2board群体脱库事件](https://www.cnblogs.com/arrdres/p/16986407.html) 导致很多人不敢买机场，以下推荐的机场都是没有使用v2board的，因此可以放心购买：**
+- [YToo（歪兔：极稳定、贵、速度很快）](https://oxycontin.top/aff.php?aff=1637)
+- [X-air（稳定、快速、便宜）](https://temp-linshidizhi-1.very-fast.net:666/register?aff=20158)
