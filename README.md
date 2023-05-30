@@ -12,7 +12,22 @@
 
 ## 软件归类
 
-### Windows
+### 各类核心
+
+**请注意：本处仅存放平时本人可能会用到的核心，以外的完全不涉及**
+
+> - [v2ray/v2fly](https://github.com/v2fly/v2ray-core/releases)
+> - [xray](https://github.com/XTLS/Xray-core/releases)
+> - [Clash Foss](https://github.com/Dreamacro/clash/releases)
+> - [Clash Premium](https://github.com/Dreamacro/clash/releases/tag/premium)
+> - [Clash Meta](https://github.com/MetaCubeX/Clash.Meta/releases)
+> - [Sing-box](https://github.com/SagerNet/sing-box/releases)
+> - [NaiveProxy](https://github.com/klzgrad/naiveproxy/releases)
+> - [Hysteria](https://github.com/apernet/hysteria/releases)
+> - [Tuic](https://github.com/EAimTY/tuic/releases)
+> - [Mieru](https://github.com/enfein/mieru/releases)
+
+### Windows GUI
 
 #### Clash系
 
@@ -36,7 +51,7 @@
 
 > - [Sing-box 托盘GUI](https://github.com/daodao97/SingBox/releases)
   
-### Apple
+### iOS/MacOS GUI
 
 > - [Shadowrocket(仅限iOS系统，不支持intel Mac，一般定价：**2.99USD**)](https://itunes.apple.com/us/app/shadowrocket/id932747118?mt=8)
 > - [QuantumultX(iOS/MacOS授权通用，支持Intel-Mac/M1-Mac，一般定价：**4.99USD**)](https://apps.apple.com/us/app/quantumult-x/id1443988620)
@@ -48,7 +63,7 @@
 > - [V2rayX（仅限Mac使用）](https://github.com/Cenmrev/V2RayX)
 > - [Sing-box 托盘GUI（仅限Mac使用）](https://github.com/daodao97/SingBox/releases)
 
-### 安卓客户端
+### Android GUI
 
 #### V2ray系
 
@@ -70,10 +85,10 @@
 
 ### v2ray/xray脚本
 
-> - [233boy经典脚本](https://github.com/233boy/v2ray/wiki/V2Ray%E4%B8%80%E9%94%AE%E5%AE%89%E8%A3%85%E8%84%9A%E6%9C%AC)
-> - [wulabing xray核心一键脚本，推荐nginx前置方案](https://github.com/wulabing/Xray_onekey)
+> - [233boy经典脚本](https://233boy.com/v2ray/v2ray-script/)
+> - [233boy的xray一键脚本](https://233boy.com/xray/xray-script/)
 > - [mack-a 编写的八合一脚本，简单易用](https://www.v2ray-agent.com/archives/1680104902581)
-> - [1024.day站长自编简易wss+ss安装脚本，需要443/8080端口开放，大流量会被探测，脚本足够安全](https://oldcat.cf/1024day-v2ray)
+> - [1024.day站长自编简易wss+ss安装脚本，脚本足够安全](https://blog.r1m.us/1024day-v2ray)
 > - [基于Sing-box的Vless+Reality节点搭建脚本](https://blog.misaka.rest/2023/04/07/singbox-reality-script/)
 > - [vless+XTLS_VISION/gRPC+REALITY 手动搭建方法](https://github.com/chika0801/Xray-install/blob/main/REALITY.md)
 
