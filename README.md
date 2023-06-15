@@ -45,7 +45,7 @@
 #### V2ray系
 
 > - [Nekoray（魔改Qv2Ray，增加hysteria等新协议支持）](https://matsuridayo.github.io/download/)
-> - [V2rayN（陈年老UI，胜在使用方便）](https://github.com/2dust/v2rayN)
+> - [V2rayN（老牌*ray系软件，近期已用.NET 6.0重写）](https://github.com/2dust/v2rayN)
 > - [Qv2ray（原维护者弃坑，已转新仓库）](https://github.com/Shadowsocks-NET/Qv2ray)
 
 #### Sing-Box
