@@ -80,6 +80,13 @@
   
 #### [Surfboard（兼容Surge4配置文件）](https://github.com/getsurfboard/surfboard/releases)
 
+### 路由器
+
+> + [fancyss(梅林/华硕固件经典插件)](https://github.com/hq450/fancyss)
+> + [MerlinClash(使用ClashPremium/ClashMeta内核)](https://github.com/zhangkuang/Merlinclash)
+> + [OpenClash(OpenWRT经典插件)](https://github.com/vernesong/OpenClash)
+> + [ShellClash(只要能SSH就能Clash！)](https://github.com/juewuy/ShellClash)
+
 ## 搭建脚本归类
 
 **所有脚本我本人都使用过，无好坏之分，只有适合你自己的才是最好的**
