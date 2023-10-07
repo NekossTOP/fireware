@@ -1,3 +1,4 @@
+rm -rf /etc/sysctl.conf
 cat >> /etc/sysctl.conf << EOF
 net.ipv4.ip_forward = 1
 net.ipv4.tcp_collapse_max_bytes = 6291456
