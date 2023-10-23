@@ -8,8 +8,9 @@ echo starting...
 echo 若要停止,重启服务器即可
 sleep 3
 screen_name=$"run"  
-screen -dmS $screen_name  
-cmd=$"while true ;do 'wget -O speedtest-cli https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py && chmod +x speedtest-cli && ./speedtest-cli && sleep 600'; done;";  
+screen -dmS $screen_name
+cmd=$"wget -O speedtest-cli https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py && chmod +x speedtest-cli";
+cmd=$"while true ;do './speedtest-cli && sleep 600'; done;";  
 screen -x -S $screen_name -p 0 -X stuff "$cmd"  
 screen -x -S $screen_name -p 0 -X stuff $'\n'  
 echo  请时刻留意此脚本更新 https://www.diannaobos.com/post/921.html
