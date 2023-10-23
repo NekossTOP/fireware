@@ -9,7 +9,7 @@ echo 若要停止,重启服务器即可
 sleep 3
 screen_name=$"run"  
 screen -dmS $screen_name  
-cmd=$"bash <(curl -sL https://raw.githubusercontent.com/imbalaomao/fireware/main/speedtest.sh)"; 
+cmd=$"while true ;do wget -O /dev/null 'https://speed.cloudflare.com/__down?during=download&bytes=107374182400'; done;";
 screen -x -S $screen_name -p 0 -X stuff "$cmd"  
 screen -x -S $screen_name -p 0 -X stuff $'\n'  
 echo  请时刻留意此脚本更新 https://www.diannaobos.com/post/921.html
