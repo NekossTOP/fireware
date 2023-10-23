@@ -3,7 +3,7 @@ echo 将开消耗您的流量，此脚本占用宽带。
 echo 将与8秒后开始运行
 sleep 8
 echo 正在检测环境
-yum install screen -y
+yum install screen curl -y
 echo starting...
 echo 若要停止,重启服务器即可
 sleep 3
