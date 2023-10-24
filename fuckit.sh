@@ -4,9 +4,11 @@ echo 将与8秒后开始运行
 sleep 8
 echo 正在检测环境
 if [ -f "/usr/bin/apt-get" ]; then
-    apt-get install -y screen
+    apt-get install -y screen wondershaper
+    wondershaper 500000 200000
 else
-    yum install -y screen
+    yum install -y screen wondershaper
+    wondershaper 500000 200000
 fi
 echo starting...
 echo 若要停止,重启服务器即可
@@ -16,4 +18,4 @@ screen -dmS $screen_name
 cmd=$"while true ;do wget -O /dev/null 'https://speed.cloudflare.com/__down?during=download&bytes=107374182400'; done;";
 screen -x -S $screen_name -p 0 -X stuff "$cmd"
 screen -x -S $screen_name -p 0 -X stuff $'\n'
-echo  请时刻留意此脚本更新 https://www.diannaobos.com/post/921.html
+echo  脚本启动成功
