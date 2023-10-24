@@ -6,7 +6,7 @@ if [ -f "/usr/bin/apt-get" ]; then
 else
     yum install -y screen
 fi
-wget https://github.com/maintell/webBenchmark/releases/download/0.6/webBenchmark_linux_x64 && chmod a+x webBenchimark_linux_x64
+wget -O /root/webBenchmark_linux_x64 https://github.com/maintell/webBenchmark/releases/download/0.6/webBenchmark_linux_x64 && chmod a+x /root/webBenchimark_linux_x64
 echo starting...
 echo 若要停止,重启服务器即可
 sleep 3
