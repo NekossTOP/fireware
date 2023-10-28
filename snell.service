@@ -1,0 +1,17 @@
+[Unit]
+Description=Snell Proxy Service
+After=network.target
+
+[Service]
+Type=simple
+User=nobody
+Group=nogroup
+LimitNOFILE=32768
+ExecStart=/usr/local/bin/snell-server -c /etc/snell/snell-server.conf
+AmbientCapabilities=CAP_NET_BIND_SERVICE
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=snell-server
+
+[Install]
+WantedBy=multi-user.target
