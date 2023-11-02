@@ -31,22 +31,22 @@
 
 #### Clash系
 
-> - [Clash for Windows（软件较大，功能齐全，方便调试）](https://github.com/Fndroid/clash_for_windows_pkg/releases/latest)
-> - [Clash for Windows汉化版](https://github.com/ender-zhao/Clash-for-Windows_Chinese/releases/latest)
+> - [Clash for Windows（已删库，此链接为最终汉化备份版）](https://github.com/imbalaomao/fireware/releases/tag/cfw)
+> - [Clash for Windows汉化版]([https://github.com/ender-zhao/Clash-for-Windows_Chinese/releases/latest](https://github.com/Z-Siqi/Clash-for-Windows_Chinese/releases/tag/CFW-V0.20.39_CN))
 > - [Clash Verge（需要EdgeRuntime2，轻量好用）](https://github.com/zzzgydi/clash-verge/releases)
-> - [ClashWarden（使用C++编写的小巧客户端）](https://github.com/dream7180/ClashWarden)
-> - [ClashN（V2rayN作者做的同界面客户端）](https://github.com/2dust/clashN/releases/latest)
+> - [ClashWarden（使用C++编写的小巧客户端，许久不更新了）](https://github.com/dream7180/ClashWarden)
+> - [ClashN（V2rayN作者做的同界面客户端，许久不更新了）](https://github.com/2dust/clashN/releases/latest)
 > - [Fclash（使用Flutter编写的跨平台GUI）](https://github.com/Fclash/Fclash/release/latest)
 > - [clash-for-flutter（使用谷歌Flutter框架编写）](https://github.com/mapleafgo/clash-for-flutter/releases/latest)
-> - [Clash.Mini（使用Go语言编写的简洁版UI，集成了Meta内核）](https://github.com/Clash-Mini/Clash.Mini/releases/latest)
-> - [ClashR Auto（基于CFW魔改，更适合小白使用）](https://github.com/ClashrAuto/Clashr-Auto-Desktop/releases/latest)
+> - [Clash.Mini（使用Go语言编写的简洁版UI，集成了Meta内核，许久不更新了）](https://github.com/Clash-Mini/Clash.Mini/releases/latest)
+> - [ClashR Auto（基于CFW魔改）](https://github.com/ClashrAuto/Clashr-Auto-Desktop/releases/latest)
 > - [Clashy（桌面全平台）](https://github.com/SpongeNobody/Clashy)
 
 #### V2ray系
 
 > - [Nekoray（魔改Qv2Ray，增加hysteria等新协议支持）](https://matsuridayo.github.io/download/)
 > - [V2rayN（老牌*ray系软件，近期已用.NET 6.0重写）](https://github.com/2dust/v2rayN)
-> - [Qv2ray（原维护者弃坑，已转新仓库）](https://github.com/Shadowsocks-NET/Qv2ray)
+> - [Qv2ray（原维护者弃坑，新仓库为RELEASE备份）](https://github.com/Shadowsocks-NET/Qv2ray)
 
 #### Sing-Box
 
@@ -56,9 +56,9 @@
 
 > - [Shadowrocket(仅限iOS系统，不支持intel Mac，一般定价：**2.99USD**)](https://itunes.apple.com/us/app/shadowrocket/id932747118?mt=8)
 > - [QuantumultX(iOS/MacOS授权通用，支持Intel-Mac/M1-Mac，一般定价：**4.99USD**)](https://apps.apple.com/us/app/quantumult-x/id1443988620)
-> - [Surge(iOS/MacOS授权分离，定价超高，一般不推荐)](https://www.nssurge.com/)
+> - [Surge(iOS/MacOS授权分离，定价超高，土豪专用)](https://www.nssurge.com/)
 > - [Loon(iOS/MacOS授权通用)](https://apps.apple.com/us/app/loon/id1373567447)
-> - [Stash(iOS可用，**2.99USD**)](https://apps.apple.com/us/app/stash-rule-based-proxy/id1596063349)
+> - [Stash(iOS可用，与Clash premium核心共享配置文件，**2.99USD**)](https://apps.apple.com/us/app/stash-rule-based-proxy/id1596063349)
 > - [ClashX（仅限Mac使用）](https://github.com/yichengchen/clashX)
 > - [ClashX Meta（仅限Mac使用）](https://github.com/MetaCubeX/ClashX.Meta)
 > - [V2rayX（仅限Mac使用）](https://github.com/Cenmrev/V2RayX)
@@ -68,7 +68,7 @@
 
 #### V2ray系
 
-> - [SagerNet（兼容SSR、v2ray、clash配置，带很多插件）](https://github.com/SagerNet/SagerNet/releases)
+> - [SagerNet（兼容SSR、v2ray、clash配置，带很多插件，已停更）](https://github.com/SagerNet/SagerNet/releases)
 > - [Matsuri（魔改版Sagernet，与原版差距不大，兼容原版插件）](https://matsuridayo.github.io/download/)
 > - [V2rayNG（Xray社区钦定）](https://github.com/2dust/v2rayNG)
   
@@ -90,15 +90,19 @@
 ## 搭建脚本归类
 
 **所有脚本我本人都使用过，无好坏之分，只有适合你自己的才是最好的**
+****
 
 ### v2ray/xray脚本
 
-> - [233boy经典脚本](https://233boy.com/v2ray/v2ray-script/)
+> - [233boy的v2ray一键脚本](https://233boy.com/v2ray/v2ray-script/)
 > - [233boy的xray一键脚本](https://233boy.com/xray/xray-script/)
 > - [mack-a 编写的八合一脚本，简单易用](https://www.v2ray-agent.com/archives/1680104902581)
 > - [1024.day站长自编简易wss+ss安装脚本，脚本足够安全](https://blog.r1m.us/1024day-v2ray)
-> - [基于Sing-box的Vless+Reality节点搭建脚本](https://blog.misaka.rest/2023/04/07/singbox-reality-script/)
-> - [vless+XTLS_VISION/gRPC+REALITY 手动搭建方法](https://github.com/chika0801/Xray-install/blob/main/REALITY.md)
+
+### sing-box脚本
+> - [fscarmen的一键脚本](https://github.com/fscarmen/sing-box)
+> - [FranzKafkaYu的一键脚本](https://github.com/FranzKafkaYu/sing-box-yes)
+> - [yuehen7的一键脚本](https://github.com/yuehen7/scripts)
 
 ### Trojan脚本
 
@@ -111,9 +115,11 @@
 ### 小众协议脚本/教程
 
 ***本Part中很少会出现一键脚本，大多为分步骤教学，需要对Linux有一定基础知识。同时大多数小众协议并无图形化UI，因此请使用v2rayN或Nekoray添加自定义核心后使用，具体使用方法请参考[此处](https://matsuridayo.github.io/n-extra_core/)***
-> - [Naiveproxy一键安装脚本](https://blog.misaka.rest/2023/04/08/naiveproxy-script/)
-> - [Hi-Hysteria一键安装脚本（目前本人主要使用）](https://github.com/emptysuns/Hi_Hysteria)
-> - [Tuic安装指南（使用clash-meta核心而非原版Tuic）](https://oldcat.cf/clashmeta)
+> - [Naiveproxy安装脚本 by MisakaBlog](https://blog.misaka.rest/2023/04/08/naiveproxy-script/)
+> - [Hi-Hysteria一键安装脚本（未适配Hysteria 2.0）](https://github.com/emptysuns/Hi_Hysteria)
+> - [Hysteria 2.0安装脚本 by MisakaBlog](https://blog.misaka.rest/2023/09/02/hysteria2-script/)
+> - [Hysteria 2.0安装脚本 by Qin2DIM(本脚本依赖python 3.8+)](https://github.com/QIN2DIM/hy2)
+> - [Tuic安装脚本 by MisakaBlog](https://blog.misaka.rest/2023/06/10/tuic-v5-script/)
 > - [mieru官方教程（分步骤且为英文，非脚本）](https://github.com/enfein/mieru)
 > - [socks5代理搭建](https://sunpma.com/724.html)
 
