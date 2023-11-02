@@ -32,7 +32,7 @@
 #### Clash系
 
 > - [Clash for Windows（已删库，此链接为最终汉化备份版）](https://github.com/imbalaomao/fireware/releases/tag/cfw)
-> - [Clash for Windows汉化版]([https://github.com/ender-zhao/Clash-for-Windows_Chinese/releases/latest](https://github.com/Z-Siqi/Clash-for-Windows_Chinese/releases/tag/CFW-V0.20.39_CN))
+> - [Clash for Windows汉化版](https://github.com/Z-Siqi/Clash-for-Windows_Chinese/releases/tag/CFW-V0.20.39_CN)
 > - [Clash Verge（需要EdgeRuntime2，轻量好用）](https://github.com/zzzgydi/clash-verge/releases)
 > - [ClashWarden（使用C++编写的小巧客户端，许久不更新了）](https://github.com/dream7180/ClashWarden)
 > - [ClashN（V2rayN作者做的同界面客户端，许久不更新了）](https://github.com/2dust/clashN/releases/latest)
