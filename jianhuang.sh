@@ -6,6 +6,7 @@ if [ -f "/usr/bin/apt-get" ]; then
 else
     yum install -y screen
 fi
+rm -f /root/jianhuang.sh
 wget -O /root/JH.sh https://github.com/shiikoe/ServerHappyShell/raw/main/ServerHappyShell.sh && chmod a+x /root/JH.sh
 cat >/root/list.txt <<EOF
 https://betahub.cn
