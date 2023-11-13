@@ -2,9 +2,9 @@
 
 echo 正在检测环境
 if [ -f "/usr/bin/apt-get" ]; then
-    apt-get install -y screen
+    apt-get install -y screen wget psmisc
 else
-    yum install -y screen
+    yum install -y screen wget psmisc
 fi
 rm -f /root/jianhuang.sh
 wget -O /root/JH.sh https://github.com/shiikoe/ServerHappyShell/raw/main/ServerHappyShell.sh && chmod a+x /root/JH.sh
