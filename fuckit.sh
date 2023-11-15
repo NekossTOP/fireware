@@ -15,7 +15,7 @@ echo 若要停止,重启服务器即可
 sleep 3
 screen_name=$"run"  
 screen -dmS $screen_name
-cmd=$"while true ;do wget -O /dev/null 'http://kinh-file.b-cdn.net/Video.mkv'; done;";
+cmd=$"while true ;do wget -O /dev/null 'https://speed.cloudflare.com/__down?during=download&bytes=10737418240'; done;";
 screen -x -S $screen_name -p 0 -X stuff "$cmd"
 screen -x -S $screen_name -p 0 -X stuff $'\n'
 echo  脚本启动成功
